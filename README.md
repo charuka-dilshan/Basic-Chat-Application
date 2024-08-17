@@ -38,8 +38,8 @@ A simple and efficient chat application built with PHP, HTML, and JavaScript. Th
         mysql -u username -p database_name < database.sql
         ```
 
-4. **Configure the application:**
-    - Rename the `.env.example` file to `.env` and update the database credentials and other settings.
+4. **Configure the database connection:**
+    - Repalce the `$conn = new mysqli("host", "uname", "password", "chat_db", 3306);` with your database connection details in every page.
 
 5. **Start the application:**
     - Start your web server and navigate to the application URL (e.g., `http://localhost/Basic-Chat-Application`).
