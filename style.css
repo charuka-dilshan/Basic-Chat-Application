@@ -1,0 +1,32 @@
+body{
+    background-image: url(Background_design_\(45\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-card {
+    background: rgba(255, 255, 255, 0.356);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255, 255, 255, 0.59);
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    /* overflow-y: scroll; */
+
+}
+
+#msgContainer{
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#msgContainer::-webkit-scrollbar{
+    display: none;
+}
+/* .custom-card::-webkit-scrollbar{
+    display: none;
+} */
